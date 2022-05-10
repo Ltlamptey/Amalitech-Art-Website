@@ -117,6 +117,7 @@ footer{
     width: 100%;
     height: auto;
     color: #fff;
+    font-size: 15px;
 }
 
 @media (max-width:450px){
@@ -153,7 +154,7 @@ footer{
     #first-image{
         background-color: #000;
         width: 450px;  
-        height: 100px;
+        height: 300px;
         display: flex;
         flex-direction: row;
         border-image-width: 125px;
@@ -175,13 +176,13 @@ footer{
     }
     .small-image{
         width: 315px;
-        height: 100px;
+        height: 300px;
         display: flex;
         flex-direction: row;
     }
     .small-image:hover{
         width: 316px;
-        height: 101px;
+        height: 301px;
     
     }
     
@@ -220,7 +221,7 @@ footer{
     }
     .map{
         width:450px;
-        height: 75px;
+        height: 150px;
         background-color: #000;
         font-size: 7.5px;
         color:#fff;
