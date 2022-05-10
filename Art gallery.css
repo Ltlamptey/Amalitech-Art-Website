@@ -1,0 +1,236 @@
+body{
+    background-color:gainsboro;
+    font-family: sans-serif;
+}
+
+#header{
+    width:1360px;
+    height: 64px;
+    padding: 32px 16px 32px 16px;
+    background-color: rgb(240, 141, 20);
+    box-shadow: 0 6px 14px rgb(0 0 0 / 10%);
+    margin-bottom:-16px;
+    }
+
+    h2{
+        background-color: rgb(3, 77, 80);
+        width: 1360px;
+        height: 50px;
+        color:#ffffff;
+        font-size: 20px;
+        position: relative;
+        
+
+    }
+    p{
+        color: #fff;
+        font-size: 20px;
+        margin: 10px;
+        font-style: italic;
+        font-family: cursive;
+    }
+    .smaller{
+        font-size: 5px;
+    }
+
+#first-image{
+    background-color: #000;
+    width: 100%;  
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    border-image-width: 500px;
+
+}
+
+button{
+    width: 120px;
+    height: 45px;
+    background-color:rgb(255, 208, 0);
+    border-radius: 0;
+    font-size: 20px;
+    font-family: cursive;
+}
+button:hover{
+    width: 125px;
+    height: 50px;
+    box-shadow: 2px 2px 1px 1px rgb(32, 32, 32);
+}
+.small-image{
+    width: 635px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+}
+.small-image:hover{
+    width: 640px;
+    height: 405px;
+
+}
+
+#second-image{
+    margin: 3px 0px 0px 525px;
+}
+
+
+.hall{
+    width:445px;
+    height:313px;
+    margin:0px 0px 0px 80px;
+}
+.hall:hover{
+    width: 450px;
+    height: 315px;
+
+}
+.black{
+    color:#000
+}
+
+
+#third-image{
+    width: 445px;
+    height: 313px;
+   margin-bottom: -75px;
+}
+#third-image:hover{
+    width: 450px;
+    height: 315px;
+
+}
+#fourth-image{
+    margin-left: 80px;
+}
+.map{
+    width:100%;
+    height: 300px;
+    background-color: #000;
+    font-size: 30px;
+    color:#fff;
+}
+
+footer{
+    display: flex;
+    background-color: #000;
+    padding: 50px;
+    width: 100%;
+    height: auto;
+    color: #fff;
+}
+
+@media (max-width:350px){
+    #header{
+        width:315px;
+        height: 16px;
+        padding: 8px 4px 8px 4px;
+        background-color: rgb(240, 141, 20);
+        box-shadow: 0 6px 14px rgb(0 0 0 / 10%);
+        margin-bottom:-4px;
+        }
+    
+        h2{
+            background-color: rgb(3, 77, 80);
+            width: 315px;
+            height: 12px;
+            color:#ffffff;
+            font-size: 5px;
+            position: relative;
+            
+    
+        }
+        p{
+            color: #fff;
+            font-size: 5px;
+            margin: 2px;
+            font-style: italic;
+            font-family: cursive;
+        }
+        .smaller{
+            font-size: 1.25px;
+        }
+    
+    #first-image{
+        background-color: #000;
+        width: 100%;  
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        border-image-width: 125px;
+    
+    }
+    
+    button{
+        width: 30px;
+        height: 11.25px;
+        background-color:rgb(255, 208, 0);
+        border-radius: 0;
+        font-size: 5px;
+        font-family: cursive;
+    }
+    button:hover{
+        width: 31.25px;
+        height: 12.5px;
+        box-shadow: 1px 1px 1px 1px rgb(32, 32, 32);
+    }
+    .small-image{
+        width: 315px;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+    }
+    .small-image:hover{
+        width: 316px;
+        height: 101px;
+    
+    }
+    
+    #second-image{
+        margin: 0px 0px 0px 0px;
+    }
+    
+    
+    .hall{
+        width: 315px;
+        height:78px;
+        margin:0px 0px 0px 0px;
+    }
+    .hall:hover{
+        width: 316px;
+        height: 79px;
+    
+    }
+    .black{
+        color:#000
+    }
+    
+    
+    #third-image{
+        width: 315px;
+        height: 78px;
+       margin-bottom: 0px;
+    }
+    #third-image:hover{
+        width: 315px;
+        height: 79px;
+    
+    }
+    #fourth-image{
+        margin-left: 0px;
+    }
+    .map{
+        width:100%;
+        height: 75px;
+        background-color: #000;
+        font-size: 7.5px;
+        color:#fff;
+    }
+    
+    footer{
+        display: flex;
+        background-color: #000;
+        padding: 20px;
+        width: 100%;
+        height: auto;
+        color: #fff;
+    }
+}
