@@ -155,7 +155,7 @@ footer{
     
     #first-image{
         background-color: #000;
-        width: 450px;  
+        width: 400px;  
         height: 300px;
         display: flex;
         flex-direction: row;
@@ -177,31 +177,31 @@ footer{
         box-shadow: 1px 1px 1px 1px rgb(32, 32, 32);
     }
     .small-image{
-        width: 635px;
+        width: 400px;
         height: 50%;
         display: flex;
         flex-direction: row;
     }
     .small-image:hover{
-        width: 636px;
+        width: 401px;
         height: 51%;
     
     }
     
     #second-image{
         margin: 0px;
-        width: 635px;
+        width: 400px;
         height:360px 
     }
     
     
     .hall{
-        width: 635px;
+        width: 400px;
         height: 50%;
         margin:0px;
     }
     .hall:hover{
-        width: 631px;
+        width: 451px;
         height: 51%;
     
     }
@@ -211,7 +211,7 @@ footer{
     
     
     #third-image{
-        width: 635px;
+        width: 400px;
         height: 50%;
        margin-bottom: 0px;
     }
