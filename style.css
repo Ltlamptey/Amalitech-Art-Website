@@ -123,32 +123,33 @@ footer{
 @media (max-width:450px){
     #header{
         width:450px;
-        height: 16px;
+        height: 25px;
         padding: 8px 4px 8px 4px;
         background-color: rgb(240, 141, 20);
         box-shadow: 0 6px 14px rgb(0 0 0 / 10%);
         margin-bottom:-4px;
+        font-size: 16px;
         }
     
         h2{
             background-color: rgb(3, 77, 80);
             width: 450px;
-            height: 12px;
+            height: 18px;
             color:#ffffff;
-            font-size: 5px;
+            font-size: 7px;
             position: relative;
             
     
         }
         p{
             color: #fff;
-            font-size: 5px;
-            margin: 2px;
+            font-size: 9px;
+            margin: 7px;
             font-style: italic;
             font-family: cursive;
         }
         .smaller{
-            font-size: 1.25px;
+            font-size: 5px;
         }
     
     #first-image{
@@ -175,14 +176,14 @@ footer{
         box-shadow: 1px 1px 1px 1px rgb(32, 32, 32);
     }
     .small-image{
-        width: 315px;
-        height: 300px;
+        width: auto;
+        height: auto;
         display: flex;
         flex-direction: row;
     }
     .small-image:hover{
-        width: 316px;
-        height: 301px;
+        width: auto;
+        height: auto;
     
     }
     
