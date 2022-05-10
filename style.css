@@ -146,7 +146,7 @@ footer{
             font-size: 9px;
             margin: 7px;
             font-style: italic;
-            font-family: cursive;
+            font-family: sans-serif;
         }
         .smaller{
             font-size: 5px;
@@ -176,8 +176,8 @@ footer{
         box-shadow: 1px 1px 1px 1px rgb(32, 32, 32);
     }
     .small-image{
-        width: auto;
-        height: auto;
+        width: 635px;
+        height: 50%;
         display: flex;
         flex-direction: row;
     }
@@ -193,8 +193,8 @@ footer{
     
     
     .hall{
-        width: 315px;
-        height:78px;
+        width: 445px;
+        height:313px;
         margin:0px;
     }
     .hall:hover{
