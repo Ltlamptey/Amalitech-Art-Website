@@ -116,6 +116,7 @@ footer{
     background-color: #000;
     padding: 50px;
     width: 1360px;
+    align-items: stretch;
     height: auto;
     color: #fff;
     font-size: 15px;
