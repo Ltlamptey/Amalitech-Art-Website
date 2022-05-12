@@ -11,6 +11,7 @@ body{
     box-shadow: 0 6px 14px rgb(0 0 0 / 10%);
     margin-bottom:-16px;
     font-size: 50px;
+    align-items: stretch;
     }
 
     h2{
@@ -20,7 +21,7 @@ body{
         color:#ffffff;
         font-size: 20px;
         position: relative;
-        
+        align-items: stretch;
 
     }
     p{
@@ -109,6 +110,7 @@ button:hover{
     background-color: #000;
     font-size: 30px;
     color:#fff;
+    align-items: stretch;
 }
 
 footer{
