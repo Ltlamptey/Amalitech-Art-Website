@@ -1,36 +1,30 @@
 body {
     width: 100%;
     margin: 0;
-    font-family: 'Big Shoulder Display', Outfit;
+    font-family: Outfit;
     font-style: normal;
     font-weight: 300;
     font-size: 22px;
     line-height: 32px;
     box-sizing: border-box;
-    background-color:gainsboro;
-    font-family: sans-serif;
-
 }
 
 *, *::after, *::before {
     box-sizing: inherit;
 }
 
-h1,
-h2{
+h1 {
     font-family: 'Big Shoulders Display', sans-serif;
     font-weight: 900;
 }
 
 .grid img,
-.hero img
-{
-	width: 100%;
-	height: auto;
-	display: block;
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+    
 }
-
-
 
 picture {
     display: flex;
@@ -509,12 +503,4 @@ header {
         max-width: 36.25rem;
         margin-right: 40px;
     }
-}
-@media (max-width: 343px){
-	.hero img
-{
-	width: 50%;
-	height: auto;
-	display: block;
-}
 }
