@@ -16,12 +16,17 @@ body {
     box-sizing: inherit;
 }
 
-h1 {
+h1,
+h2{
     font-family: 'Big Shoulders Display', sans-serif;
     font-weight: 900;
 }
 
-.grid img,
+.grid img{
+width: 100%;
+height: auto;
+}
+
 .hero img {
     width: 500px;
     height: 800px;
