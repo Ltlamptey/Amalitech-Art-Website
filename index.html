@@ -14,7 +14,16 @@
         --><div class="hero">
             <div class="hero">
             <picture>
-                <img src="https://github.com/Ltlamptey/Amalitech-Art-Website/blob/master/art-gallery-website/assets/desktop/image-hero.jpg?raw=true" alt="Hero"/>
+                <div class="hero">
+            <picture>
+                <source media="(min-width: 1340px)"
+                        srcset="./assets/desktop/image-hero.jpg,
+                                ./assets/desktop/image-hero@2x.jpg">
+                <source media="(min-width: 768px)"
+                        srcset="./assets/tablet/image-hero.jpg,
+                                ./assets/tablet/image-hero@2x.jpg">
+                <img src="./assets/mobile/image-hero.jpg" srcset="./assets/mobile/image-hero@2x.jpg" alt="">
+            </picture>
             </picture><!--
         --><div class="header-text">
             <h1>MODERN<br>ART GALLERY<br></h1>
