@@ -22,17 +22,11 @@ h2{
     font-weight: 900;
 }
 
-.grid img{
+.grid img,
+.hero img{
 width: 100%;
 height: auto;
-	display: block;
-}
-
-.hero img {
-    width: 700px;
-    height: 800px;
-    display: block;
-    
+display: block;
 }
 
 picture {
