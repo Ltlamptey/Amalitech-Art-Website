@@ -510,3 +510,11 @@ header {
         margin-right: 40px;
     }
 }
+@media (max-width: 343px){
+	.hero img
+{
+	width: 50%;
+	height: auto;
+	display: block;
+}
+}
